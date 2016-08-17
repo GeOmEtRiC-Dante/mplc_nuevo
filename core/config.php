@@ -75,7 +75,7 @@ define('DATABASE', array(
 //------------------------------------------------
 
 # Constantes fundamentales
-define('URL', 'http://localhost/nuevo/');
+define('URL', 'http://localhost/mplc_nuevo/');
 define('APP', 'MPLC');
 define('SESS_APP_ID', 'muni_app_id');
 /**
@@ -83,7 +83,7 @@ define('SESS_APP_ID', 'muni_app_id');
   * @example "/" si para acceder al framework colocamos http://url.com en la URL, ó http://localhost
   * @example "/Ocrend-Framework/" si para acceder al framework colocamos http://url.com/Ocrend-Framework, ó http://localhost/Ocrend-Framework/
 */
-define('__ROOT__', '/nuevo/');
+define('__ROOT__', '/mplc_nuevo/');
 
 //------------------------------------------------
 
