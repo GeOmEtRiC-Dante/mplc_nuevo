@@ -1,0 +1,36 @@
+<?= $this->insert('overall/header') ?>
+<body>
+
+  <?= $this->insert('overall/topnav') ?>
+  <div id="content">
+      <div class="container">
+
+          <div class="col-md-12">
+
+              <div class="row" id="error-page">
+                  <div class="col-sm-6 col-sm-offset-3">
+                      <div class="box">
+
+                          <p class="text-center">
+                              <img src="views/app/images/logo.png" alt="Obaju template">
+                          </p>
+
+                          <h3>Lo sentimos, no se encuentra la Pagina Solicitada.</h3>
+                          <h4 class="text-muted">Error 404 - Pagina no encontrada</h4>
+
+
+                          <p class="buttons"><a href="home/" class="btn btn-primary"><i class="fa fa-home"></i> Volver al Inicio</a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+          <!-- /.col-md-9 -->
+      </div>
+      <!-- /.container -->
+      <?= $this->insert('overall/footer') ?>
+  </div>
+</body>
+</html>

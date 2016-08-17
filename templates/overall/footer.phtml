@@ -1,0 +1,126 @@
+
+<!-- *** FOOTER ***
+_________________________________________________________ -->
+<div id="footer" data-animate="fadeInUp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <h4>Paginas</h4>
+
+                <ul>
+                    <li><a href="text.html">Inicio</a>
+                    </li>
+                    <li><a href="text.html">Noticias</a>
+                    </li>
+                    <li><a href="faq.html">Comunicados</a>
+                    </li>
+                    <li><a href="contact.html">Convocatorias</a>
+                    </li>
+                    <li><a href="contact.html">Cursos y Eventos</a>
+                    </li>
+                </ul>
+
+                <hr>
+            </div>
+            <!-- /.col-md-3 -->
+
+            <div class="col-md-3 col-sm-6">
+
+                <h4>Nosotros</h4>
+
+                <ul>
+                    <li><a href="category.html">Mision y Vision</a>
+                    </li>
+                    <li><a href="category.html">Organigrama</a>
+                    </li>
+                    <li><a href="category.html">Autoridades</a>
+                    </li>
+                </ul>
+
+
+                <hr class="hidden-md hidden-lg">
+
+            </div>
+            <!-- /.col-md-3 -->
+
+            <div class="col-md-3 col-sm-6">
+
+                <h4>Informacion MPLC:</h4>
+                <h5>RUC:</h5>
+                <p>
+                  20187459258
+                </p>
+                <h5>Direccion:</h5>
+                <p>
+                  Jr. Espinar N° 306 – Plaza de Armas
+                </p>
+                <h5>Telefax:</h5>
+                <p>
+                  (084)282009 – (084) 282478
+                </p>
+
+                <hr class="hidden-md hidden-lg">
+
+            </div>
+            <!-- /.col-md-3 -->
+
+
+
+            <div class="col-md-3 col-sm-6">
+
+                <h4>Siguenos Aqui:</h4>
+
+                <p class="social">
+                    <a href="https://www.facebook.com/munilaconvencion/?fref=ts" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCM7i3ytt5tkuAfF3vbyfqBA" class="youtube external" data-animate-hover="shake"><i class="fa fa-youtube"></i></a>
+                    <a href="https://plus.google.com/u/0/118118849573836541251" class="gplus external" data-animate-hover="shake"><i class="fa fa-google-plus"></i></a>
+                </p>
+                <ul>
+                  <li><a href="home/"><img src="views/app/images/logo.png" alt="" /></a></li>
+                </ul>
+            </div>
+            <!-- /.col-md-3 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+        <!-- *** COPYRIGHT ***
+ _________________________________________________________ -->
+        <div id="copyright">
+            <div class="container">
+                <div class="col-md-12">
+                    <p class="pull-left">© <?=date("Y");?> Municipalidad Provincial La Convencion - Todos los derechos Reservados. </p>
+                </div>
+            </div>
+        </div>
+        <!-- *** COPYRIGHT END *** -->
+
+<!-- IMPORTANT FOR DEBUG MODE NO DELETE -->
+<?php if (true == DEBUG): ?>
+<script src="views/app/js/jdev.js"></script>
+<?php else: ?>
+<script src="views/app/js/jquery.js"></script>
+<?php endif ?>
+<!-- IMPORTANT FOR DEBUG MODE NO DELETE -->
+
+
+<script src="views/app/js/jquery-1.11.0.min.js"></script>
+<script src="views/app/js/bootstrap.min.js"></script>
+<script src="views/app/js/jquery.cookie.js"></script>
+<script src="views/app/js/waypoints.min.js"></script>
+<script src="views/app/js/modernizr.js"></script>
+<script src="views/app/js/bootstrap-hover-dropdown.js"></script>
+<script src="views/app/js/owl.carousel.min.js"></script>
+<script src="views/app/js/front.js"></script>
+<?php if (!isset($_SESSION[SESS_APP_ID])): ?>
+<script src="views/app/js/login.js"></script>
+<script src="views/app/js/register.js"></script>
+<script src="views/app/js/lostpass.js"></script>
+<?php endif ?>
