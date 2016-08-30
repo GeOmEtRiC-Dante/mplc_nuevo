@@ -11,9 +11,11 @@ final class Login extends Models implements OCREND {
   final public function SignIn(array $data) : array {
 
     Helper::load('strings');
+
     $this->user = $this->db->scape($data['user']);
 
     $u = $this->db->select('id,pass','users',"user='$this->user'",'LIMIT 1');
+
     if(false != $u and Strings::chash($u[0][1],$data['pass'])) {
       $_SESSION[SESS_APP_ID] = $u[0][0];
       $success = 1;

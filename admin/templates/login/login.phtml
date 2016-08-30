@@ -1,0 +1,48 @@
+<?= $this->insert('overall/header') ?>
+  <body class="login">
+    <div>
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form>
+              <div class="">
+                <img src="views/logo_lg.png" class="img-responsive" alt="" />
+              </div>
+              <hr>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuario" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Contraseña" required="" />
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary" name="button">Iniciar Sesion</button>
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="separator">
+                <div class="clearfix"></div>
+                <br />
+                <div>
+                  <p>© <?= date("Y") ?> Todos los Derechos Reservados. <?= APP ?></p>
+                </div>
+              </div>
+              <div id="ajax_respuesta">
+                <!--
+                <div class="alert alert-info alert-dismissible fade in" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                  <strong>Correcto</strong>, te estamos redireccionando...
+                </div>
+              -->
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <?= $this->insert('overall/footer', array("mostrar" => false)) ?>
+  </body>
+</html>
